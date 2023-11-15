@@ -36,6 +36,13 @@ if RENDER_EXTERNAL_HOSTNAME:
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://mauwebs.github.io/React-Pc",
+]
+
+
+CORS_ORIGIN_WHITELIST = [
+    "http://localhost:5173",
+    "https://mauwebs.github.io/React-Pc",
 ]
 
 CORS_ALLOW_METHODS = (
