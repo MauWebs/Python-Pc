@@ -36,13 +36,13 @@ if RENDER_EXTERNAL_HOSTNAME:
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://mauwebs.github.io",
+    "https://react-pc-virid.vercel.app",
 ]
 
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:5173",
-    "https://mauwebs.github.io",
+    "https://react-pc-virid.vercel.app",
 ]
 
 CORS_ALLOW_METHODS = (
