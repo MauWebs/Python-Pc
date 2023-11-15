@@ -1,0 +1,79 @@
+# Ignore Python byte code files
+__pycache__/
+*.pyc
+0001_initial.py
+0002_initial.py
+0003_initial.py
+0004_initial.py
+0005_initial.py
+0006_initial.py
+
+# Ignore database files
+db.sqlite3
+
+# Ignore environment-specific settings
+.env
+
+# Ignore log files
+*.log
+
+# Ignore configuration files
+*.ini
+
+# Ignore compiled Python files
+*.pyo
+*.pyd
+
+# Ignore system files
+.DS_Store
+
+# Ignore development files and directories
+*.bak
+*.swp
+*.swo
+.vscode/
+__pycache__/
+node_modules/
+dist/
+*.egg-info/
+*.egg
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+*.po
+*.mo
+*.bak
+*.swp
+*.swo
+.ipynb_checkpoints/
+
+# Ignore user-specific settings and IDE directories
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore virtual environment directories
+venv/
+env/
+env
+__env/
+
+# Ignore migrations (only if you're using South or Django < 1.7)
+# Comment the next line if you don't use migrations
+#migrations/
+
+# Ignore all .pyc files
+*.pyc
+
+# Ignore coverage reports
+htmlcov/
+
+# Ignore temporary test files
+__test-*.xml
+
+# Ignore development and local settings files
+local_settings.py
